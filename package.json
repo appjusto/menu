@@ -4,10 +4,16 @@
   "description": "Functions related with menu",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public",
+    "postversion": "git push && git push --tags && git fetch"
   },
   "author": "AppJusto",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appjusto/menu.git"
+  },
   "dependencies": {
     "@appjusto/types": "^5.1.2",
     "lodash": "^4.17.21"
