@@ -4,10 +4,3 @@ export interface Ordering {
     [firstLevelId: string]: string[];
   };
 }
-
-export interface Ordering2 {
-  parents: string[];
-  childrenByParentId: {
-    [parentId: string]: string[];
-  };
-}

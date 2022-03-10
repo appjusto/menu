@@ -1,6 +1,6 @@
 import { WithId } from '@appjusto/types';
 import { without } from 'lodash';
-import { Ordering } from '../types';
+import { Ordering } from './types';
 import { arrayMove } from './utils';
 
 export const getSecondLevelIds = (ordering: Ordering, firstLevelId: string) =>
