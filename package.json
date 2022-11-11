@@ -10,7 +10,8 @@
     "start": "node lib/index.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postversion": "git push && git push --tags && git fetch"
+    "postversion": "git push && git push --tags && git fetch",
+    "deploy": "npm version ${VERSION:-patch} && npm publish --access public"
   },
   "author": "AppJusto",
   "license": "Apache-2.0",
