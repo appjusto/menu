@@ -12,6 +12,7 @@ export const isComplementGroupEqual = (
       if (c.enabled != b.items![i].enabled) return true;
       if (c.name != b.items![i].name) return true;
       if (c.price != b.items![i].price) return true;
+      return false;
     })
   )
     return false;
