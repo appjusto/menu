@@ -7,6 +7,7 @@ export {
   updateParent,
   updateSecondLevelIndex,
 } from './v1/children';
+export { isComplementGroupEqual } from './v1/complements';
 export { empty, getSorted } from './v1/index';
 export {
   addFirstLevel,
