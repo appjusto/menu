@@ -20,7 +20,7 @@
     "url": "https://github.com/appjusto/menu.git"
   },
   "dependencies": {
-    "@appjusto/types": "^5.1.2",
+    "@appjusto/types": "^21.0.11",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
