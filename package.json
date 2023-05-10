@@ -1,6 +1,6 @@
 {
   "name": "@appjusto/menu",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "Functions related with menu",
   "main": "lib/index.js",
   "directories": {
